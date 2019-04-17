@@ -1,0 +1,13 @@
+K	-.-   
+Y	-.-- 
+R	.-.   
+O	--- 
+
+To get the above command, the script is name="K Y R O"; for i in $name; do code=$( grep $i morse.txt) ;echo  "$code";done 
+This echo command prints the line vertically.
+  
+K	-.-   Y	-.-- R	.-.   O	---   
+
+To get the above command, the script is name="K Y R O"; for i in $name; do code=$( grep $i morse.txt) ;printf  "$code";done
+The printf command prints the line horizontal.
+
